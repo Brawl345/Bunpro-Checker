@@ -1,11 +1,13 @@
 # Bunpro Checker
 
+**NOTE:** Bunpro removed the legacy API this project uses so it no longer works.
+
 Bunpro Checker is a WebExtension that tracks pending reviews on [Bunpro.jp](https://www.bunpro.jp) and shows a badge
 with the number of reviews that still need to be done.
 
 ## Setup
 
-1. Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/kdmajdephakcakeldepipjhdabgccoja)
+1. Install the extension
 2. Open the extension's preferences page from the extensions manager and set
    your [Bunpro API key](https://www.bunpro.jp/settings/api). Make the toolbar icon visible if you want to see the
    number of unread items.
@@ -18,9 +20,6 @@ with the number of reviews that still need to be done.
 4. Run `npm run start:chrome` for starting the browser with the extension pre-loaded and ready for debugging with
    hot-reloading
 5. Build with `npm run build`
-
-Primary development target is Chrome. Firefox is not supported due to lack of Manifest v3 - you can
-use [Bunpro Alerts](https://addons.mozilla.org/firefox/addon/bunpro-alerts/) by i_Jedi.
 
 ## Usage notes
 
